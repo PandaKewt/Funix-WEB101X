@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+    font-size: 125%;
+}
+
+header {
+    background-color: dimgray;
+    text-align: center;
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 150%;
+}
+
+h2 {
+    background-color: darkturquoise;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+summary {
+    font-style: normal;
+}
+
+details {
+    font-style: italic;
+}
