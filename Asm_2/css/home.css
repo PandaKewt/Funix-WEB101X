@@ -1,0 +1,47 @@
+/* Home */
+main {
+  margin-top: 30px;
+  clear: both;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body > header{
+  box-sizing: border-box;
+  background-image: url(../img/mountain-4823516.png);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding-top: 20%;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  color: #ffffff;
+  margin: 0px;
+}
+
+main > article {
+  box-sizing: border-box;
+  height: 550px;
+  width: 500px;
+  margin: 10px 10px 10px;
+  display: inline-table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article h2 {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+article img {
+  width: 400px;
+  height: 300px;
+}
+
+article p {
+  height: 60px;
+}
+
+article a {
+  border-radius: 100px;
+}
