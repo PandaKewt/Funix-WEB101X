@@ -18,7 +18,7 @@ const submit = () => {
     const selectCake = 'select';
     const maxName = 100;
     const maxMessage = 30;
-    const maxAddress = 250;
+    const maxAddress = 500;
 
     //Validate form
     let errorMessages = "";
