@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Panda's Cake Blog</title>
+</head>
+
+<body>
+    <header>
+        <h1>Panda's cake</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="product">Product
+                <ul>
+                    <li><a href="product/mochi.html">Mochi</a></li>
+                    <li><a href="product/mouse.html">Mousse</a></li>
+                    <li><a href="product/pudding.html">Pudding</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <form id="form">
+
+                <div>
+                    <label for="cakeInput">Cake name:</label>
+                    <select id="cakeInput">
+                        <option value="select">--- Select da cake ---</option>
+                        <option value="yellowCake">Classic Yellow Cake</option>
+                        <option value="coconutCake">Coconut Bundt Cake</option>
+                        <option value="cheeseCake">Cream Cheese Pound Cake</option>
+                        <option value="germanCake">German Chocolate Cake</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="nameInput">Your name:</label>
+                    <input type="text" name="name" id="nameInput">
+                </div>
+
+                <div>
+                    <label for="messageInput">Message:</label>
+                    <input type="email" name="email" id="messageInput"> <br />
+                </div>
+
+                <div>
+                    <p>Include</p>
+                    <input type="checkbox" name="Candle" id="Candle">
+                    <label for="Candle">Candle</label>
+                    <input type="checkbox" name="Firework" id="Firework">
+                    <label for="Firework">Firework</label>
+                    <input type="checkbox" name="Toys" id="Toys">
+                    <label for="Toys">Toys</label>
+                </div>
+
+                <div>
+                    <label for="dateInput">Deliver date:</label>
+                    <input type="date" name="subject" id="dateInput"> <br />
+                </div>
+
+                <div>
+                    <label for="addressInput">Deliver to:</label>
+                    <textarea name="location" id="addressInput" cols="30" rows="10"></textarea> <br />
+                </div>
+
+                <div>
+                    <p>Call before deliver:</p>
+                    <input type="radio" name="call" id="yesInput" value="yes" checked>
+                    <label for="yesInput">Yes</label>
+                    <input type="radio" name="call" id="noInput" value="no">
+                    <label for="noInput">No</label>
+                </div>
+
+                <p id="error"></p>
+                <input type="submit" value="Send Message" id="formSubmit">
+            </form>
+        </section>
+    </main>
+    <script src=" js/order.js"></script>
+    <footer>&copy; 2022 by Panda's cake</footer>
+
+</body>
+
+</html>

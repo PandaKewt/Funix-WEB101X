@@ -1,0 +1,21 @@
+h2 {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+section {
+  width: 60vw;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 120%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section h2, section p {
+  text-align: left;
+}
+
+section img {
+  margin-top: 60px;
+}

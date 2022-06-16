@@ -1,0 +1,42 @@
+main>section {
+    box-sizing: border-box;
+    margin: 10vh;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input,
+textarea,
+select {
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 15px;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input:not([type="submit"], [type="checkbox"], [type="radio"]),
+select {
+    min-width: 100px;
+    width: 25vw;
+    margin: 10px;
+}
+
+textarea {
+    width: 50vh;
+    resize: none;
+}
+
+label,
+p {
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    width: 150px;
+}
+
+#error {
+    color: red;
+    white-space: pre-line;
+}

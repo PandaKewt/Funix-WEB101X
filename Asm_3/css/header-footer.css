@@ -1,0 +1,20 @@
+body>header {
+    box-sizing: border-box;
+    background-image: url(../img/mountain-4823516.png);
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    overflow: hidden;
+    background-position: 0 -300px;
+    background-repeat: no-repeat;
+}
+
+hr {
+    box-sizing: border-box;
+    width: 10vw;
+    margin-left: 0;
+}
