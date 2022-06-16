@@ -31,8 +31,11 @@ textarea {
 label,
 p {
     box-sizing: border-box;
-    display: inline-block;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+p:not(#error) {
+    display: inline-block;
     width: 150px;
 }
 
