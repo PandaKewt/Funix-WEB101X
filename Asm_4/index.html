@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda's Cake Blog</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid ">
+            <a href="index.html" class="navbar-brand">Panda's Cake</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navHide" aria-controls="navHide" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navHide">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
+                            <li><a href="product/mochi.html" class="dropdown-item">Mochi</a></li>
+                            <li><a href="product/mouse.html" class="dropdown-item">Mousse</a></li>
+                            <li><a href="product/pudding.html" class="dropdown-item">Pudding</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="order.html" class="nav-link">Order</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="d-flex align-items-center justify-content-center">
+        <h1>Panda's cake</h1>
+    </header>
+
+    <main class="mt-4 mb-4 container-fluid d-flex flex-wrap justify-content-center">
+
+        <article class="m-3 card d-inline-block">
+            <img src="img/mochi.jpg" alt="mochi" class="card-img-top text-start">
+            <h2 class="m-4 card-title">Mochi</h2>
+            <div class="card-body">
+                <p class="m-4 card-text">Là một món ăn truyền thống của Nhật Bản</p>
+            </div>
+            <div class="card-footer">
+                <a href="product/mochi.html" class="btn btn-outline-success">Xem thêm</a>
+            </div>
+        </article>
+
+        <article class="m-3 card d-inline-block">
+            <img src="img/mousse.jpg" alt="mousse" class="card-img-top">
+            <h2 class="m-4 card-title">Mousse</h2>
+            <div class="card-body">
+                <p class="m-4 card-text">Nếu bạn là một tín đồ bánh ngọt, bạn sẽ không hề muốn bỏ qua
+                    món bánh Mousse “làm mưa làm gió” thế giới bánh ngọt những
+                    năm gần đây.</p>
+            </div>
+            <div class="card-footer">
+                <a href="product/mochi.html" class="btn btn-outline-success">Xem thêm</a>
+            </div>
+        </article>
+
+        <article class="m-3 card d-inline-block">
+            <img src="img/pudding.jpg" alt="pudding" class="card-img-top">
+            <h2 class="m-4 card-title">Pudding</h2>
+            <div class="card-body">
+                <p class="m-4 card-text">Bánh Pudding là gì? Đây là thắc mắc chung của rất nhiều người dù
+                    chiếc bánh Pudding không còn mấy xa lạ với chúng ta.</p>
+            </div>
+            <div class="card-footer">
+                <a href="product/mochi.html" class="btn btn-outline-success">Xem thêm</a>
+            </div>
+        </article>
+    </main>
+
+    <footer class="p-2">&copy; 2022 by Panda's cake</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>

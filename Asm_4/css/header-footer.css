@@ -1,0 +1,5 @@
+body>header {
+    box-sizing: border-box;
+    background-image: url(../img/mountain-4823516.png);
+    height: 60vh;
+}

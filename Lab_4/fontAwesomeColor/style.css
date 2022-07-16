@@ -1,0 +1,17 @@
+i {
+    color: green;
+    width: 50px;
+    margin: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div>div {
+    display: inline-block;
+}
+
+p {
+    color: grey;
+}

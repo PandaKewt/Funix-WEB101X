@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/361046/910/1365/m2/fpnw/wm1/sijtvivodfmni1nvqebfddoyxqcxp0gmdka3or79lvyr69fxnhjxvp2qkuclu1wo-.jpg?1424271099&s=4356fe84a9297d696759dc7eca45b36e");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    font-size: 130%;
+    color: white;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+section {
+    margin: 4%;
+}
+
+h2 {
+    margin: 4%;
+}
+
+section:nth-last-of-type(2n+3) h2 {
+    color: yellow;
+}

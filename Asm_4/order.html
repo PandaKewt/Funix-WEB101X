@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Panda's Cake Blog</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid ">
+        <a href="index.html" class="navbar-brand">Panda's Cake</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navHide" aria-controls="navHide" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navHide">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Product
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
+                        <li><a href="product/mochi.html" class="dropdown-item">Mochi</a></li>
+                        <li><a href="product/mouse.html" class="dropdown-item">Mousse</a></li>
+                        <li><a href="product/pudding.html" class="dropdown-item">Pudding</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="order.html" class="nav-link">Order</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header></header>
+
+    <main>
+        <section class="card mx-auto my-4" style="width:90%">
+            <div class="card-header">Contact Us</div>
+            <form class="needs-validation" novalidate>
+
+                <div class="m-4">
+                    <label for="cakeInput" class="form-label">Cake name</label>
+                    <select id="cakeInput" class="form-control">
+                        <option value="select">--- Select da cake ---</option>
+                        <option value="yellowCake">Classic Yellow Cake</option>
+                        <option value="coconutCake">Coconut Bundt Cake</option>
+                        <option value="cheeseCake">Cream Cheese Pound Cake</option>
+                        <option value="germanCake">German Chocolate Cake</option>
+                    </select>
+                    <div class="invalid-feedback" id="validateCake"></div>
+                </div>
+
+                <div class="m-4">
+                    <label for="nameInput" class="form-label">Your name</label>
+                    <input type="text" name="name" id="nameInput" class="form-control" aria-labelledby="validateName">
+                    <div class="invalid-feedback" id="validateName"></div>
+                </div>
+
+                <div class="m-4">
+                    <label for="messageInput" class="form-label">Message</label>
+                    <input type="email" name="email" id="messageInput" class="form-control" aria-labelledby="validateMessage">
+                    <div class="invalid-feedback" id="validateMessage"></div>
+                </div>
+
+                <div class="mx-4 mt-4 form-check">
+                    <p class="form-label">Include</p>
+                    <input type="checkbox" name="Candle" id="Candle" class="form-check-input">
+                    <label for="Candle" class="form-check-label">Candle</label>
+                </div>
+
+                <div class="mx-4 form-check">
+                    <input type="checkbox" name="Firework" id="Firework" class="form-check-input">
+                    <label for="Firework" class="form-check-label">Firework</label>
+                </div>
+
+                <div class="mx-4 mb-4 form-check">
+                    <input type="checkbox" name="Toys" id="Toys" class="form-check-input">
+                    <label for="Toys" class="form-check-label">Toys</label>
+                </div>
+
+                <div class="m-4">
+                    <label for="dateInput" class="form-label">Deliver date:</label>
+                    <input type="date" name="subject" id="dateInput" class="form-control">
+                    <div class="invalid-feedback" id="validateDate"></div>
+                </div>
+
+                <div class="m-4">
+                    <label for="addressInput" class="form-label">Deliver to:</label>
+                    <textarea name="location" id="addressInput" cols="30" rows="10" class="form-control"></textarea> <br />
+                    <div class="invalid-feedback" id="validateAddress"></div>
+                </div>
+
+                <div class="mx-4 mt-4 form-check">
+                    <p class="form-label">Call before deliver:</p>
+                    <input type="radio" name="call" id="yesInput" class="form-check-input" value="yes" checked>
+                    <label for="yesInput" class="form-check-label">Yes</label>
+                </div>
+
+                <div class="mx-4 mb-4 form-check">
+                    <input type="radio" name="call" id="noInput" class="form-check-input" value="no">
+                    <label for="noInput" class="form-check-label">No</label>
+                </div>
+
+                <input type="submit" value="Send Message" id="formSubmit" class="m-4 btn btn-primary">
+            </form>
+        </section>
+    </main>
+    <script src=" js/order.js"></script>
+    <footer>&copy; 2022 by Panda's cake</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>

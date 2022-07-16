@@ -1,0 +1,36 @@
+body {
+    font-size: 150%;
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    background-color: cyan;
+    padding: 10px;
+}
+
+nav {
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+
+section {
+    float: left;
+    width: 30%;
+    padding: 30px;
+}
+
+h2 {
+    background-color: cyan;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: cyan;
+}
+
+img {
+    width: 4%;
+}

@@ -1,0 +1,32 @@
+body > header{
+  box-sizing: border-box;
+  background-image: url(../img/mountain-4823516.png);
+  height: 100vh;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  color: #ffffff;
+}
+
+main > article {
+  box-sizing: border-box;
+  height: auto;
+  width: 550px;
+  display: inline-table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article h2 {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+article img {
+  width: 400px;
+  height: 300px;
+}
+
+article div.card-body{
+  height: 220px;
+}
+
+article a {
+  border-radius: 100px;
+}
